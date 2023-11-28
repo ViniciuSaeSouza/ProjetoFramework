@@ -204,6 +204,6 @@ h2 {
 .shake-big {
   position: absolute;
   justify-content: right;
-  transform: translate(-90px, -55px);
-  width: fit-content;
+  transform: translate(-70px, -55px);
+  width: 900px;
 }
