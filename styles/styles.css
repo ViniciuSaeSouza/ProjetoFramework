@@ -7,6 +7,7 @@ body {
   margin: 0px;
   font-family: "Orelega One", serif;
   background-color: #0b421a;
+  overflow: hidden;
 }
 
 .navbar {
@@ -98,7 +99,8 @@ h1 {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  max-width: 60%;
+  max-width: 70%;
+  padding: 10px;
 }
 
 h2 {
@@ -113,9 +115,10 @@ h2 {
 .cards-container { 
   display: flex;
   justify-content: space-between;
-  margin-top: 100px;
   align-items: center;
   align-content: center;
+  max-width: 60%;
+  margin-top: 100px;
 }
 
 .cards-container img {
@@ -177,6 +180,14 @@ h2 {
   font-size: 45px;
 }
 
-.shake1 {
-  width: fit-content;
+.shake-container {
+  display: flex;
+  justify-items: end;
+  align-items: center;
+}
+
+.shake-big {
+  position: absolute;
+  width: 700px;
+  overflow-x: hidden;
 }
