@@ -19,8 +19,8 @@ body {
   box-shadow: 0px 1px 10px 0px #00000061;
 }
 
-.navbar-left > * ,
-.navbar-right > *{
+.navbar-left > *,
+.navbar-right > * {
   margin: 10px;
 }
 
@@ -37,8 +37,8 @@ body {
 }
 
 .navbar-left div:hover {
-    color: rgba(7, 168, 104, 0.76);
-    cursor: pointer;
+  color: rgba(7, 168, 104, 0.76);
+  cursor: pointer;
 }
 
 .navbar-left img {
@@ -53,9 +53,9 @@ body {
 }
 
 .navbar-right img {
-    width: 22px;
-    height: 30px;
-    padding: 0px 5px;
+  width: 22px;
+  height: 30px;
+  padding: 0px 5px;
 }
 
 .login,
@@ -69,26 +69,85 @@ body {
 }
 
 .join-now {
-    background-color: black;
-    color: #fff;
-    font-size: 16px;
+  background-color: black;
+  color: #fff;
+  font-size: 16px;
 }
 
 .login:hover {
-    color: rgba(7, 168, 104, 0.76);
-    background-color: rgba(105, 105, 105, 0.281);
-    cursor: pointer;
+  color: rgba(7, 168, 104, 0.76);
+  background-color: rgba(105, 105, 105, 0.281);
+  cursor: pointer;
 }
 
 .join-now:hover {
-    color: rgba(7, 168, 104, 0.76);
-    background-color: rgba(105, 105, 105, 0.281);
-    cursor: pointer;
+  color: rgba(7, 168, 104, 0.76);
+  background-color: rgba(105, 105, 105, 0.281);
+  cursor: pointer;
 }
 
 .find-store:hover {
-    color: rgba(7, 168, 104, 0.76);
-    cursor: pointer;
+  color: rgba(7, 168, 104, 0.76);
+  cursor: pointer;
 }
 
+h1 {
+  color: #fff;
+  font-family: Orelega One;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 60%;
+}
 
+h2 {   
+  color: #fff;
+  font-family: Orelega One;
+  font-size: 30.646px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+
+.matcha img {
+  width: 219.933px;
+  height: 156.817px;
+  transform: translate(-5px, 30px);
+}
+.milk img {
+  width: 311.379px;
+  height: 311.379px;
+  transform: translate(-45px, -95px);
+}
+.syrup img {
+  width: 290.604px;
+  height: 290.544px;
+  transform: translate(-45px, -100px);
+}
+.ice img {
+  width: 230.29px;
+  height: 256.731px;
+  transform: translate(-8px, -76px);
+}
+
+.cards-container {
+  max-width: 65%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-top: 100px;
+}
+
+.cards-container h2 {
+    text-align: center;
+}
+
+.card {
+  background-color: #0f2716;
+  border-radius: 25px;
+  height: 263px;
+  width: 205px;
+  margin: 0px 10px;
+}
