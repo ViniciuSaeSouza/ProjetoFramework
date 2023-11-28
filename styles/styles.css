@@ -101,47 +101,67 @@ h1 {
   max-width: 60%;
 }
 
-h2 {   
+h2 {
+  display: flex;
   color: #fff;
-  font-family: Orelega One;
+  font-family: "Orelega One", serif;
   font-size: 30.646px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-
+}
+.cards-container { 
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  align-items: center;
+  align-content: center;
 }
 
+.cards-container img {
+  display: flex;
+}
 .matcha img {
-  width: 219.933px;
-  height: 156.817px;
+  /* width: 219.933px;
+  height: 156.817px; */
   transform: translate(-5px, 30px);
 }
 .milk img {
-  width: 311.379px;
-  height: 311.379px;
+  /* width: 311.379px;
+  height: 311.379px; */
   transform: translate(-45px, -95px);
 }
 .syrup img {
-  width: 290.604px;
-  height: 290.544px;
+  /* width: 290.604px;
+  height: 290.544px; */
   transform: translate(-45px, -100px);
 }
 .ice img {
-  width: 230.29px;
-  height: 256.731px;
-  transform: translate(-8px, -76px);
-}
-
-.cards-container {
-  max-width: 65%;
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  margin-top: 100px;
+  /* width: 230.29px;
+  height: 256.731px; */
+  transform: translate(-8px, -90px);
 }
 
 .cards-container h2 {
-    text-align: center;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+}
+
+.matcha h2 {
+  transform: translateY(40px);
+}
+
+.milk h2 {
+  transform: translateY(-115px);
+}
+
+.syrup h2 {
+  transform: translateY(-120px);
+}
+
+.ice h2 {
+  transform: translateY(-60px);
 }
 
 .card {
@@ -150,4 +170,13 @@ h2 {
   height: 263px;
   width: 205px;
   margin: 0px 10px;
+}
+
+.symbol {
+  color: #fff;
+  font-size: 45px;
+}
+
+.shake1 {
+  width: fit-content;
 }
